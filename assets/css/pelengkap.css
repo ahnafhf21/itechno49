@@ -1,0 +1,131 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.TakTerlihat{
+	display:None;
+
+}
+.Deskripsi{/*Boleh diubah, tapi sebisa mungkin, z-indexnya di
+pertahankan*/
+	z-index:10001;
+  color: white;
+  font-family: monospace;
+  font-size: 22px;
+  text-decoration: underline;
+	position: fixed;
+	bottom: 0;
+	margin-bottom:5px;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translateX(-50%);
+
+}
+
+.Deskripsi2{/*Boleh diubah, tapi sebisa mungkin, z-indexnya di
+pertahankan*/
+	z-index:10001;
+	background-color:RGB(255,255,255);
+	width:90%;
+	height:90%;
+	overflow:auto;
+
+	/*Membuat supaya align middle secara vertikal dan horizontal*/
+	transform: translate(-50%,-50%);
+	position:absolute;
+	left:50%;
+	top:50%;
+	text-align:justify;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#JSzoom{
+	z-index:9999;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:RGBA(133,133,133,0.7);
+
+}
+#JSzoom > #JSzoomContent{
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	position:absolute;
+	text-align: center;
+	vertical-align: middle;
+}
+#JSzoom > #closeButton{
+	color:RGB(255,0,0);
+	font-weight:900;
+	position:fixed;
+	top:0px;
+	right:0px;
+	height:10%;
+	font-size:30px;
+	cursor:pointer;
+	z-index:10000;
+
+
+}
+
+.centerFlex{
+    display:inline-block;
+
+}
+
+@keyframes fadingIn{
+	from {opacity:0.0;};
+	to {opacity:1.0;};
+}
+
+.fadeIn{
+	display:block;
+	animation-name: fadingIn;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+@keyframes fadingOut{
+	from {opacity:1.0;};
+	to {opacity:0.0;};
+}
+
+.fadeOut{
+	display:block;
+	animation-name: fadingOut;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.fadedOutAlready{
+	display:none;
+}
+
+noscript{
+	text-align:center;
+
+	width:100%;
+	position:fixed;
+	left:0px;
+	top:0x;
+	z-index:10002;
+	background-color:RGB(230,230,230);
+}
+
+.imageToZoom{
+	display:inline-block;
+
+}

@@ -1,0 +1,148 @@
+/* General */
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  background-color: #ecf0f1;
+  font-size: 20px;
+}
+.container{
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+h1{
+  font-family: monospace;
+  text-decoration: underline;
+  font-size: 35px;
+}
+h2{
+  font-family: monospace;
+  text-decoration: underline;
+  font-size: 28px;
+}
+p{
+  font-size: 22px;
+}
+a{
+  text-decoration: none;
+}
+#line-1{
+  height: 2px;
+  background: white;
+}
+.quote{
+  font-style: oblique;
+}
+ul{
+    list-style: none;
+    position: relative;
+}
+li{
+  display:inline;
+}
+/* Header */
+#header{
+  padding: 50px 0 60px 0;
+  background-color: #1abc9c;
+  color: white;
+  text-align:center;
+}
+#header img {
+  margin-bottom: -10px;
+  width: 300px;
+}
+#header img:hover{
+  width: 350px;
+}
+#header li{
+  margin: 0 15px 0 15px;
+}
+#header li a{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+#header li a:hover{
+  color: #e74c3c;
+  text-decoration: underline;
+}
+/* Visi dan Misi */
+
+#visimisi{
+  padding: 50px 0 60px 0;
+  color: #2c3e50;
+  text-align:center;
+}
+/* Divisi */
+
+#divisi{
+  padding: 50px 0 60px 0;
+  background-color: #1abc9c;
+  color: white;
+  text-align:center;
+}
+#divisi img{
+  width: 400px;
+  margin: 0 25px 0 25px;
+}
+
+/* Kegiatan */
+
+#kegiatan{
+  padding: 50px 0 60px 0;
+  color: #2c3e50;
+  text-align:center;
+}
+#kegiatan img{
+  width: 400px;
+  height: 290px;
+}
+
+/* Karya */
+
+#karya{
+  padding: 50px 0 60px 0;
+  background-color: #1abc9c;
+  color: white;
+  text-align:center;
+}
+#karya video{
+  width: 400px;
+  height: 290px;
+}
+
+/* Kontak*/
+#kontak{
+  padding: 50px 0 60px 0;
+  color: #2c3e50;
+  text-align:center;
+}
+#kontak ul{
+  position: relative;
+}
+#kontak ul li{
+  display: inline-block;
+  margin: 0 25px 0 25px;
+}
+
+/* copyright */
+#copyright{
+  padding: 20px 0 30px 0;
+  background-color: #1abc9c;
+  color: white;
+  text-align:center;
+}
+#copyright a{
+  color: white;
+}
+#copyright a:hover{
+  color: #e74c3c;
+  text-decoration: underline;
+}
+#copyright img{
+  margin: 0 0 -4px;
+}
+a{
+	font-size: 25px;
+}
